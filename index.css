@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.cont{
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenedor{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 160px;
+}
+.logo{
+    width: 270px;
+    height: auto;
+    margin-left: 30PX;
+    display: block;
+
+}
+
+.menu{
+    background-color: #1a477e;
+    padding: 12px;
+}
+
+.links-lista{list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Canva sans , Georgia, Times, 'Times New Roman', sans-serif;
+}
+    
+.lista{
+    list-style-type: none;
+    text-decoration: none;
+    color: #7dd8ff;
+    font-size: 30px;
+    font-family: Canva sans,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Seccion Bienvenida */
+
+.bienvenida{
+    background-color:#27aae1;
+    font-family: Canva sans , Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-align: center;
+    font-size:clamp(32px, 8vw, 64px) ;
+    padding: 0%;
+}
+
+.videopresentacion{
+   control: none;
+   flex-shrink: 0;
+}
+
+.texto{
+    color:#0c3f7e ;
+    font-size: 55px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* Seccion Tratamientos */
+
+.tratamientos{
+    background-color:#fdfdfdd3;
+    font-family: Canva sans,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.titulo-tratamientos{
+    color: #1a477e;
+    text-align: center;
+    font-size: clamp(50px, 8vw, 64px);
+    font-family: Canva sans, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}  
+
+.div-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.titulo1{
+    text-align: center;
+    color: #0c3f7e;
+    font-size: 35px;
+    font-family: Canva sans , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    border: 3px groove #27aae1;
+    border-radius: 8px;
+    padding: 8px;   
+}
+
+
+.fondo1{
+    width: 280px;
+}
+
+.datos{
+    text-align: center;
+    margin: 8px 0;
+    font-size: 28px;
+}
+
+.boton{
+    background-color: #0c3f7e;
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Seccion Contacto */
+
+.contacto{
+    background-color:#0c3f7e;
+    padding: 18px;
+}
+
+.titulo-contacto{
+    font-size: clamp(32px, 8vw, 64px);
+    text-align: center;
+    font-family: Canva sans, 'Bebas Neue', Verdana, Tahoma, sans-serif;
+    color: white;
+}
+
+.sub-titulo-contacto{
+    font-size: clamp(20px, 4vw, 24px);
+    text-align: center;
+    font-family: Canva sans, Verdana, Tahoma, sans-serif;
+    margin: 16px;
+    color: white;
+}
+
+.textocontacto{
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.formulario{
+   background-color: white;
+   font-size: 20px;
+   border: 2px solid black;
+   border-radius: 8px;
+   width: 280px;
+   margin: auto;
+   padding: 15px;
+    
+}
+
+.texto2{
+    color: black;
+}
+
+.boton2{
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/* Seccion Ubicacion */
+
+.contenedor-ubicacion{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    font-family: Canva sans, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Ubicacion{
+    font-size: clamp(40px, 8vw, 64px);
+    font-family: Canva sans, 'Bebas Neue', Verdana, Tahoma, sans-serif; 
+    color: #1a477e;
+    padding: 15px;
+    text-align: center;
+}
+
+.titulo-ubicacion{
+    font-size: 30px;
+    font-family: Canva sans, 'Bebas Neue', Verdana, Tahoma, sans-serif; 
+    color: #1a477e;
+    padding: 15px;
+    
+}
+
+.mapa{
+    border: 2px solid  #0c3f7e;
+    border-radius: 6px;
+}
+
+/* Seccion redes/boton para volver a incio */
+
+.footer-redes{
+    background-color: #27aae1;
+    color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.div-inicio{
+    font-size: 25px;
+    padding: 15px 0;
+    color: white; 
+    border-radius: 25px;
+}
+
+.redes-icons{
+   color: #000000;
+}
+
+.redes{
+
+}
+
+.li{ 
+  list-style-type: none;
+}
+
+.icono{
+    color: white;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #0c3f7e;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: Montserrat,'Times New Roman', Times
+}
+

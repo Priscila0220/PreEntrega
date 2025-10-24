@@ -1,1 +1,0 @@
-Esta pagina web es para un Centro odontologico. La pagina esta estructurada con HTML y utilice las etiquetas semanticas, coloque el logo en el <head>, dentro del <body> cree la etiqueta <header> , <main> y <footer> para lograr una buena estructura con las diferentes secciones en cada una de ellas, luego utilice CSS para darle el diseño deseado.
